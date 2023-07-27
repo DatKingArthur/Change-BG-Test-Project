@@ -1,6 +1,6 @@
 document.body.addEventListener('click', setBG)
 
-function setBG(e) {
+/*function setBG(e) {
     if (e.target.id === 'red') {
         document.body.style.backgroundColor = 'red'
     } else if (e.target.id === 'orange') {
@@ -16,4 +16,7 @@ function setBG(e) {
     } else {
         document.body.style.backgroundColor = '#fff'
     }
+}*/
+function setBG(e) {
+    document.body.style.backgroundColor = e.target.id;
 }
